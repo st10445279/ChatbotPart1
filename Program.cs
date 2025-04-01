@@ -116,6 +116,10 @@ class CybersecurityChatBot
                 {
                     Console.WriteLine("Always use secure websites (look for HTTPS in the URL) and avoid clicking on unknown links.");
                 }
+                else if ( userInput.Contains("how can i help"))
+                    {
+                        Console.WriteLine("Always use secure websites");
+                    }
                 else
                 {
                     // Default response for unrecognized inputs
