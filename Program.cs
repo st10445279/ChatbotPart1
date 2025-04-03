@@ -43,6 +43,7 @@ class CybersecurityChatBot
         static void PlayVoiceGreeting()
         {
             try
+
             {
                 SoundPlayer player = new SoundPlayer("welcome.wav"); // Make sure greeting.wav is in the correct location
                 player.PlaySync(); // Play the greeting sound
