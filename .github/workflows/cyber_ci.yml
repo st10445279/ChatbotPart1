@@ -24,7 +24,7 @@ jobs:
         run: nuget restore "ChatbotPart1.sln"
 
       - name: Check Code Formatting
-         dotnet format --verify-no-changes "ChatbotPart1.sln" || throw
+        run: dotnet format --verify-no-changes "ChatbotPart1.sln" || exit 1  # Fix here
 
       - name: Build Project
         run: msbuild "ChatbotPart1.sln" /p:Configuration=Release
