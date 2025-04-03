@@ -128,7 +128,7 @@ class CybersecurityChatBot
                 }
 
                 // Give the option to exit the chat
-                Console.Write("\nDo you want to continue chatting? (yes/no): ");
+                Console.Write("\nDo you want to continue chatting? (yes/no) ");
                 string continueChat = Console.ReadLine()?.ToLower();
                 if (continueChat != "yes")
                 {
